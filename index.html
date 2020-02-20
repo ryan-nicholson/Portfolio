@@ -1,22 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./main.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="main.css">
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+  <title>Ryan Nicholson</title>
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#aboutbox">About Me</a>
+        <a class="nav-item nav-link" href="#examplesbox">My Projects</a>
+        <a class="nav-item nav-link" href="#contactbox">Contact Me</a>
+      </div>
+    </div>
+  </nav>
 
+  <div class= "mainbox container">
+    <div class= "container jumbotron">
+      <h1 class= "ryan">Ryan Nicholson</h1>
+      <p class="dotnettext"> Junior .Net Developer</p>
+    </div>
+    <div class="container row" id="aboutbox"></div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="C:\ElevenFiftyProjects\Portfolio\assets\Ryan Nicholson1.jpg" class="card-img" alt="Ryan's Pic">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">About Me</h5>
+              <p class="card-text">Currently studying C# at Eleven Fifty Academy in Indianapolis.    </p>
+              <a href="" class="btn btn-black btn-md mt-20">Download Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-
-
- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
+    <div class="container" id="examplesbox">
+      <h2>Projects</h2>
+      <div class="card-group">
+        <div class="card">
+          <img src="C:\ElevenFiftyProjects\Portfolio\assets\BourbonStore.jpg" class="card-img-top" alt="Bourbon Store">
+          <div class="card-body">
+            <h5 class="card-title">Bourbon Store Front</h5>
+            <p class="card-text">Static Storefront webpage.</p>
+            <a href="https://github.com/ryan-nicholson/BourbonStore" class="btn btn-primary">Check it out!</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="C:\ElevenFiftyProjects\Portfolio\assets\creature.jpg" class="card-img-top" alt="Creature">
+          <div class="card-body">
+            <h5 class="card-title">CSS Creature</h5>
+            <p class="card-text">First attempt at drawing with CSS.</p>
+            <a href="https://codepen.io/Rbnich2012/pen/ZEYZxwe" class="btn btn-primary">View on Codepen</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="C:\ElevenFiftyProjects\Portfolio\assets\hangman1.jpg" class="card-img-top" alt="Hangman Game">
+          <div class="card-body">
+            <h5 class="card-title">Hangman Game</h5>
+            <p class="card-text">Classic Hangman Game.</p>
+            <a href="https://github.com/ryan-nicholson/Hangman" class="btn btn-primary">Play Now</a>
+          </div>
+        </div>
+      </div>
+    </div>  
+  
+  <div class="container" id="contactbox">
+    <h2>Contact</h2>
+    <form data-toggle="validator" id="contactme" action="https://formspree.io/xvoaeddj" method="POST" novalidate="true">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <div class="controls">
+              <input class="form-control" data-error="This section is required." id="msg_subject" placeholder="Subject *" required="" type="text" name="subject">
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+        </div><!-- /.column -->
+        <div class="col-sm-6">
+          <div class="form-group">
+            <div class="controls">
+              <input class="form-control" id="phone" placeholder="Phone" type="text" name="phone">
+            </div>
+          </div>
+        </div><!-- /.column -->
+      </div><!-- /.row -->
+      <div class="row mb10">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <div class="controls">
+              <input class="form-control" data-error="This section is required." id="name" placeholder="Your Name *" required="" type="text">
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+        </div><!-- /.column -->
+        <div class="col-sm-6">
+          <div class="form-group">
+            <div class="controls">
+              <input class="email form-control" data-error="This section is required." id="email" placeholder="Email *" required="" type="email" name="email">
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+        </div><!-- /.column -->
+      </div><!-- /.row -->
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group">
+            <div class="controls">
+              <textarea class="form-control" data-error="This section is required." id="message" placeholder="Message *" required="" rows="5" name="message"></textarea>
+              <div class="help-block with-errors"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt15">
+        <div class="col-sm-6">
+          <div id="msgSubmit" class="h4 hidden mt10 no-margin-bottom"></div> 
+        </div><!-- /.column -->
+        <div class="col-sm-6 text-right">
+          <button type="submit" id="submit" class="btn btn-default btn-lg disabled" style="pointer-events: all; cursor: pointer;">Send</button>
+        </div><!-- /.column -->
+      </div><!-- /.row -->
+    </form>
+      <div class="col-md-6 socialmedia">
+        <p>My social media links:</p>
+        <a href="https://www.linkedin.com/in/ryan-nicholson-b830a439/" target="_blank"><img src="C:\ElevenFiftyProjects\Portfolio\assets\linkedIn.png"></i></a>
+        <a class="github-button" href="https://github.com/ryan-nicholson/Hangman" aria-label="Follow @ntkme on GitHub">Follow @ryannicholson</a>
+      </div>
+    </div>
+    <p class="ryan2020">Ryan Nicholson © 2020</p>
+ </div>
+</div>
 </body>
 </html>

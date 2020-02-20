@@ -1,0 +1,101 @@
+body {
+  margin-top: 30px;
+  background-color: black;
+}
+
+.mainbox {
+  padding:inherit;
+}
+
+.jumbotron {
+  border-radius: 10px;
+  background: lightgray;
+}
+
+div.ryan {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+}
+
+#ryanpic {
+  float: center;
+}
+
+div.dotnettext {
+  float: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 200%;
+  color: black;
+  margin-top: 40px;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+}
+
+#aboutbox {
+  background-color: lightgray;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.btn-lg {
+  margin-bottom: 20px;
+}
+
+.abouttext {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 60px auto 100px auto;
+}
+
+.img-circle {
+  margin-bottom: 30px;
+  float: center;
+}
+
+#examplesbox {
+  background-color: lightgray;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.thumbnail {
+width: 20px;
+height: 20px;
+}
+
+.previews {
+  width: auto;
+  max-height: 255px;
+}
+
+#contactbox {
+  background-color: lightgray;
+  margin: 20px auto;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
+.emailme {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.socialmedia {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.ryan2020 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.card-group {
+  background-color: lightgray;
+}
+
